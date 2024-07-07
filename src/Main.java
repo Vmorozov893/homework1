@@ -19,6 +19,12 @@ public class Main {
         cat = cat - 1.6;
         paper = paper - 7639;
         System.out.println("новые значения переменных: " + dog + ' ' + cat + ' ' + paper + "\n");
-
+        System.out.println("4 задание");
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
     }
 }
