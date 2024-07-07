@@ -7,6 +7,10 @@ public class Main {
         var cat = 3.6;
         System.out.println("Значение переменной cat: " + cat);
         var paper = 763789;
-        System.out.println("Значение переменной paper: " + paper);
+        System.out.println("Значение переменной paper: " + paper + "\n");
+        dog = dog + 4;
+        cat = cat + 4;
+        paper = paper + 4;
+        System.out.println("новые значения переменных: " + dog + ' ' + cat + ' ' + paper + "\n");
     }
 }
