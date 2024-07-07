@@ -54,5 +54,19 @@ public class Main {
         System.out.println("Разница между массами: " + differenceWeight);
         System.out.println("Сумма масс: " + sumWeight + "\n");
 
+        System.out.println("7 задание");
+
+        var remainderWeight = boxerWeight2 % boxerWeight1;
+        System.out.println("Остаток от деления: " + remainderWeight + "\n");
+
+        System.out.println("8 задание");
+
+        var hoursWork = 640;
+        var hoursEmployee = 8;
+        var employee = hoursWork / hoursEmployee;
+        System.out.println("Всего работников в компании - " + employee + " человек." + "\n");
+        employee = employee + 94;
+        hoursWork = employee * hoursEmployee;
+        System.out.println("Если в компании работает " + employee + " человека, то всего " + hoursWork + " часа работы может быть поделено между сотрудниками.");
     }
 }
